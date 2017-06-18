@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="26dp">
+
+    <ImageView
+        android:id="@+id/jelenImageView"
+        android:src="@drawable/jelen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="@string/appNameStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:theme="@style/MyButton"
+                android:id="@+id/listHidesBtn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/hideListStart"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:theme="@style/MyButton"
+                android:id="@+id/mapBtn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/hideMap"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:theme="@style/MyButton"
+                android:id="@+id/aboutAppBtn"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="@string/about"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

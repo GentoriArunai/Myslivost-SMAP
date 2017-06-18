@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Myslivost</string>
+    <string name="appNameAbout">Aplikace správa myslivosti</string>
+    <string name="law">V souladu se zákonem č. 449/2001 Sb., \n zákon o myslivosti</string>
+    <string name="lawLink">Znění celého zákona</string>
+    <string name="author">Lenka Folprechtová, autor aplikace \n Tel.: 725 486 486</string>
+    <string name="ms">Lukáš Stránský, MS Vrbová Lhota \n Tel.: 602 123 456</string>
+
+    <string name="hideList">Seznam dostupných posedů</string>
+
+    <string name="news">Nejnovější komentáře</string>
+
+    <string name="comTitle">Komentář</string>
+    <string name="comDate">Datum</string>
+    <string name="comUser">Uživatel</string>
+
+    <string name="hideTitle">Název posedu</string>
+    <string name="isOccupied">Je posed obsazený?</string>
+    <string name="occupied">Posed je obsazený</string>
+    <string name="notOccupied">Posed je volný</string>
+    <string name="setOccupied">Zde sedím já</string>
+    <string name="comments">Komentáře</string>
+    <string name="newComment">Přidat komentář</string>
+    <string name="toMap">Na mapě</string>
+
+    <string name="title_activity_maps">Mapa revíru - Vrbová Lhota</string>
+
+    <string name="appNameStart">Správa myslivosti</string>
+    <string name="login">Přihlášení</string>
+    <string name="hintLogin">Zadej přihlašovací jméno</string>
+    <string name="btnLogin">Přihlásit</string>
+
+    <string name="whatsNew">Co je nového</string>
+    <string name="hideListStart">Seznam posedů</string>
+    <string name="hideMap">Mapa revíru</string>
+    <string name="about">O aplikaci</string>
+
+</resources>

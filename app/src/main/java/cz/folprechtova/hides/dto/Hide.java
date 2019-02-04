@@ -7,6 +7,7 @@ public class Hide implements Serializable{
 
     private int id;
     private String name;
+    //navíc zde atribut s MAC adresou + settery, gettery
     private boolean occupied;
     private float latitude;
     private float longitude;

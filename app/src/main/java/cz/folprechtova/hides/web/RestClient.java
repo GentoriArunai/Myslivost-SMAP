@@ -59,6 +59,7 @@ public class RestClient {
         @POST("sendComment")
         Call<Void> sendComment(@Query("user") String username, @Query("body") String body);
         //tadyto by zavolalo https://www.posedy.cz/api/sendComment?user=Lenka&body="text zprávy"
+        //popripade ulozilo na Firebase
 
         @POST("sendComment")
         Call<Void> setHideOccupied(@Query("hideId") int hideId, @Query("userName") String username, @Query("isOccupied") boolean isOccupied);

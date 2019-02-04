@@ -30,7 +30,7 @@ public class MapsActivity extends FragmentActivity {
         setContentView(R.layout.activity_maps);
 
         if (getIntent().hasExtra("HIDE")) {
-            hide = (Hide) getIntent().getExtras().getSerializable("HIDE"); //takhle to mělo být :))
+            hide = (Hide) getIntent().getExtras().getSerializable("HIDE");
         } else {
             hides = JSONUtils.getListFromJson(FakeDataBuilder.FAKE, Hide[].class);
         }

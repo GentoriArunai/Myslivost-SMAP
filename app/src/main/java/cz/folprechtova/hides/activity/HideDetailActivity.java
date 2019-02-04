@@ -113,6 +113,7 @@ public class HideDetailActivity extends BaseBackButtonActivity {
                 //pokud by se nám vrátilo
                 if (response.code() == 200) {
                     //máme posed obsazený/nebo jsme ho odblokovali - a osatní uživatelé to uvidí
+                    //také se zde nastavuje čas obsazení/uvolnění
                 }
             }
 

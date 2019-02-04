@@ -28,11 +28,10 @@ public class ListActivity extends BaseBackButtonActivity {
         recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
 
         /**
-         TAKTO BYCHOM MOHLI VOLAT Z API
+         TAKTO BYCHOM MOHLI VOLAT Z API, z Firebase
          MY SI MÍSTO TOHO DATA VEZMEME Z FAKE BUILDERU
 
-        Petr Weissar byl tak hodný, abych mohla zkoušet na něm - já na své edu.uhk.cz nemohu nic nahrát
-        RestClient.get().getHides("http://edu.uhk.cz/~weisspe1/posedy/").enqueue(new Callback<List<Hide>>() {
+        RestClient.get().getHides("http://edu.uhk.cz/~folprle1/posedy/").enqueue(new Callback<List<Hide>>() {
             @Override
             public void onResponse(Call<List<Hide>> call, Response<List<Hide>> response) {
                 List<Hide> body = response.body();
